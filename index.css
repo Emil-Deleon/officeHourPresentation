@@ -20,6 +20,7 @@ h3 {
 
 #redemption {
     padding-top: 45px;
+    color: red;
 }
 
 /* together, were gonna understand how to manipulate B-R, then well have fun playing around 
@@ -27,16 +28,16 @@ with it!*/
 
 .sluggyBoi img {
     /*1 starts at corner, gets to 5 rem on right, rounds off same thing on the bottom half (10r)*/
-    /*border-top-left-radius: 5rem ;*/
+    border-top-left-radius: 5rem 10rem;
 
     /*2 borders move clockwise...*/
    /* border-radius: 1rem 2rem 3rem 4rem / 4rem 3rem 2rem 1rem; */
-    /*2pt2 border-top-left-radius: 1rem/4rem*/
+    /*2pt2 border-top-left-radius: 1rem/4rem;*/
     
-    /* p5 border-radius: 90% 10% 45% 55% / 30% 24% 76% 70%;
+    /* p3 border-radius: 90% 10% 45% 55% / 30% 24% 76% 70%;
     transition: border-radius 500ms ease-in-out; */
 }
 
-/* p5 2.sluggyBoi img:hover {
+/* p3 2.sluggyBoi img:hover {
     border-radius: 44% 56% 83% 17% / 45% 72% 28% 55% ;
 } */
